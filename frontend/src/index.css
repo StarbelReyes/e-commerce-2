@@ -1,3 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.athiti-regular {
+  font-family: "Athiti", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.about-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 3em;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-section {
+  background: #ffffff;
+  padding: 20px;
+}
+
+.section-heading {
+  font-size: 1.8em;
+  color: #34495e;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.about-text {
+  font-size: 1em;
+  line-height: 1.1;
+  color: #2c3e50;
+  text-align: justify;
+}
+
+.about-text strong {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2.5em;
+  }
+
+  .about-text {
+    font-size: 1em;
+  }
+}
